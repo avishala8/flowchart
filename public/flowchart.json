@@ -1,0 +1,129 @@
+{
+    "nodes": [
+        {
+            "id": "node1",
+            "type": "circle",
+            "position": {
+                "x": 0,
+                "y": 0
+            },
+            "data": {
+                "text": "Circle"
+            }
+           
+        },
+        {
+            "id": "node2",
+            "type": "square",
+            "position": {
+                "x": 303.5200469970703,
+                "y": 259.59991455078125
+            },
+            "data": {},
+            "width": 128,
+            "height": 128,
+            "selected": false,
+            "positionAbsolute": {
+                "x": 303.5200469970703,
+                "y": 259.59991455078125
+            },
+            "dragging": false
+        },
+        {
+            "id": "node3",
+            "type": "diamond",
+            "position": {
+                "x": 600,
+                "y": 250
+            },
+            "data": {
+                "text": "Diamond"
+            },
+            "width": 145,
+            "height": 145
+        },
+        {
+            "id": "node-4",
+            "type": "end",
+            "position": {
+                "x": 920,
+                "y": 256.3333333333333
+            },
+            "data": {
+                "label": "end node"
+            },
+            "width": 128,
+            "height": 128,
+            "selected": true,
+            "positionAbsolute": {
+                "x": 920,
+                "y": 256.3333333333333
+            },
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "default",
+            "source": "node1",
+            "sourceHandle": "right",
+            "target": "node2",
+            "targetHandle": "left",
+            "id": "edge-1",
+            "markerEnd": {
+                "type": "arrow",
+                "color": "#f00",
+                "strokeWidth": 3
+            },
+            "style": {
+                "strokeWidth": 1
+            },
+            "data": {
+                "label": ""
+            }
+        },
+        {
+            "type": "default",
+            "source": "node2",
+            "sourceHandle": "right",
+            "target": "node3",
+            "targetHandle": "left",
+            "id": "edge-2",
+            "markerEnd": {
+                "type": "arrow",
+                "color": "#f00",
+                "strokeWidth": 3
+            },
+            "style": {
+                "strokeWidth": 1
+            },
+            "data": {
+                "label": ""
+            }
+        },
+        {
+            "type": "default",
+            "source": "node3",
+            "sourceHandle": "right",
+            "target": "node-4",
+            "targetHandle": "left",
+            "id": "edge-3",
+            "markerEnd": {
+                "type": "arrow",
+                "color": "#f00",
+                "strokeWidth": 3
+            },
+            "style": {
+                "strokeWidth": 1
+            },
+            "data": {
+                "label": ""
+            }
+        }
+    ],
+    "viewport": {
+        "x": 0,
+        "y": 0,
+        "zoom": 1
+    }
+}

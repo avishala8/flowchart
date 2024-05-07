@@ -1,0 +1,47 @@
+.box-container {
+    width: 300px; /* Adjust the width as needed */
+    margin-right: auto;
+    /* Add other styles as needed */
+}
+
+.process{
+    margin-right: 95px;
+}
+
+.input-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* margin-left: 50px; */
+}
+
+.delete-button .three-dots {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+}
+
+
+.stages-container {
+    display: flex; /* Display stages in a row */
+  }
+  
+
+.small-input {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .big-input {
+    width: 230px; /* Adjust the width as needed */
+  }
+
+  .icon-box {
+    margin-right: 5px; /* Adjust the margin as needed */
+  }
+  
+  .icon {
+    margin-right: 5px; /* Adjust the margin as needed */
+    /* position:absolute; */
+  }
+  
